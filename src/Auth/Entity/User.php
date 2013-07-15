@@ -6,14 +6,14 @@
  * @license   GPLv3
  */
 
-namespace Auth\Model;
+namespace Auth\Entity;
 
-use Core\Model\AbstractModel;
+use Core\Entity\AbstractEntity;
 
 /**
  * The user model
  */
-class User extends AbstractModel implements UserInterface
+class User extends AbstractEntity implements UserInterface
 {
     
     /** @var string */

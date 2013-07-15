@@ -8,14 +8,14 @@
  */
 
 /** Auth model */
-namespace Auth\Model;
+namespace Auth\Entity;
 
-use Core\Model\ModelInterface;
+use Core\Entity\EntityInterface;
 
 /**
  * User model interface 
  */
-interface UserInterface extends ModelInterface
+interface UserInterface extends EntityInterface
 {
     /**
      * Sets the email.
