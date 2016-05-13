@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Cross Applicant Management - Auth\n"
+"Project-Id-Version: YAWIK\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-13 15:54+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2016-05-12 18:44+0200\n"
+"PO-Revision-Date: 2016-05-13 13:27+0000\n"
+"Last-Translator: Carsten Bleek <cbleek@yawik.org>\n"
+"Language-Team: Romanian (http://www.transifex.com/yawik/yawik/language/ro/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
 #: view/form/user-info-container.phtml:25
 msgid "Image"
@@ -23,11 +23,11 @@ msgstr ""
 
 #: view/form/social-profiles-fieldset.phtml:40
 msgid "Loading"
-msgstr ""
+msgstr "se incarca"
 
 #: view/form/social-profiles-fieldset.phtml:46
 msgid "Close"
-msgstr ""
+msgstr "Închide"
 
 #: view/form/social-profiles-button.phtml:43
 msgid "Attach profile"
@@ -63,17 +63,17 @@ msgstr ""
 
 #: view/error/social-profiles-unconfigured.phtml:19
 msgid ""
-"The login via social networks does not work at the moment due to the missing "
-"of some crucial configuration data."
+"The login via social networks does not work at the moment due to the missing"
+" of some crucial configuration data."
 msgstr ""
 
 #: view/auth/users/list.ajax.phtml:14 language/_annotated_strings.php:81
 msgid "Name"
-msgstr ""
+msgstr "Nume"
 
 #: view/auth/users/list.ajax.phtml:18
 msgid "Role"
-msgstr ""
+msgstr "Rol"
 
 #: view/auth/users/list.ajax.phtml:22 view/auth/index/index.phtml:14
 #: view/auth/index/index.phtml:15 view/auth/index/index.phtml:36
@@ -83,11 +83,11 @@ msgstr ""
 
 #: view/auth/users/list.ajax.phtml:59
 msgid "Action"
-msgstr ""
+msgstr "Acțiune"
 
 #: view/auth/users/list.ajax.phtml:73
 msgid "Edit"
-msgstr ""
+msgstr "Editați | ×"
 
 #: view/auth/users/edit.phtml:11
 msgid "User data"
@@ -96,7 +96,7 @@ msgstr ""
 #: view/auth/users/list.phtml:13 src/Auth/Form/GroupUsersCollection.php:89
 #: language/_annotated_strings.php:222
 msgid "Users"
-msgstr ""
+msgstr "utilizatori"
 
 #: view/auth/users/list.phtml:22
 msgid "No user found matching your criteria."
@@ -116,7 +116,7 @@ msgstr ""
 
 #: view/auth/manage-groups/index.phtml:25
 msgid "Actions"
-msgstr ""
+msgstr "acţiuni"
 
 #: view/auth/manage-groups/form.phtml:39
 msgid "search for users"
@@ -137,11 +137,11 @@ msgstr ""
 #: view/auth/index/index.phtml:42 view/auth/register/index.phtml:1
 #: view/auth/register/index.phtml:2 language/_annotated_strings.php:90
 msgid "Register"
-msgstr ""
+msgstr "Inregistreaza-te"
 
 #: view/auth/index/index.phtml:57 view/auth/index/index.phtml:58
 msgid "I forgot my password"
-msgstr ""
+msgstr "Am uitat parola"
 
 #: view/auth/index/index.phtml:66 view/auth/index/login-info.phtml:82
 #, php-format
@@ -222,17 +222,17 @@ msgstr ""
 
 #: view/auth/register/completed.phtml:2
 msgid "The registration has been successful"
-msgstr ""
+msgstr "Înregistrarea a avut succes"
 
 #: view/auth/register/completed.phtml:4 language/_annotated_strings.php:165
 msgid ""
 "An Email with an activation link has been sent, please try to check your "
 "email box"
-msgstr ""
+msgstr "Un e-mail cu un link de activare a fost trimis, vă rugăm să încercați să verificați caseta de e-mail"
 
 #: view/auth/password/index.phtml:11 view/auth/password/index.phtml:25
 msgid "My password"
-msgstr ""
+msgstr "parola mea"
 
 #: view/auth/password/index.phtml:22
 msgid "Here you can change your password"
@@ -248,7 +248,7 @@ msgstr ""
 
 #: view/auth/manage/profile.phtml:55
 msgid "Employees"
-msgstr ""
+msgstr "Numar de angajati"
 
 #: src/Auth/Form/UserInfo.php:34 language/_annotated_strings.php:54
 msgid "personal informations"
@@ -258,7 +258,7 @@ msgstr ""
 #: language/_annotated_strings.php:57 language/_annotated_strings.php:60
 #: language/_annotated_strings.php:114
 msgid "Password"
-msgstr ""
+msgstr "Parola"
 
 #: src/Auth/Form/GroupFieldset.php:31
 msgid "Group data"
@@ -304,35 +304,35 @@ msgstr ""
 
 #: language/_annotated_strings.php:18 language/_annotated_strings.php:84
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 #: language/_annotated_strings.php:21
 msgid "Phone"
-msgstr ""
+msgstr "Telefon"
 
 #: language/_annotated_strings.php:24
 msgid "Postalcode"
-msgstr ""
+msgstr "Cod postal"
 
 #: language/_annotated_strings.php:27
 msgid "City"
-msgstr ""
+msgstr "Oraș"
 
 #: language/_annotated_strings.php:30
 msgid "Salutation"
-msgstr ""
+msgstr "Salut"
 
 #: language/_annotated_strings.php:33
 msgid "Mr."
-msgstr ""
+msgstr "Dl."
 
 #: language/_annotated_strings.php:36
 msgid "Mrs."
-msgstr ""
+msgstr "Doamna."
 
 #: language/_annotated_strings.php:39 language/_annotated_strings.php:105
 msgid "please select"
-msgstr ""
+msgstr "te rog selecteaza"
 
 #: language/_annotated_strings.php:42
 msgid "First name"
@@ -344,11 +344,11 @@ msgstr ""
 
 #: language/_annotated_strings.php:48
 msgid "street"
-msgstr ""
+msgstr "stradă"
 
 #: language/_annotated_strings.php:51
 msgid "house number"
-msgstr ""
+msgstr "numărul casei"
 
 #: language/_annotated_strings.php:63
 msgid "Retype password"
@@ -370,7 +370,7 @@ msgstr ""
 
 #: language/_annotated_strings.php:87
 msgid "Are you human?"
-msgstr ""
+msgstr "Ești om?"
 
 #: language/_annotated_strings.php:96
 msgid "General"
@@ -382,7 +382,7 @@ msgstr ""
 
 #: language/_annotated_strings.php:102
 msgid "Status"
-msgstr ""
+msgstr "stare"
 
 #: language/_annotated_strings.php:108
 msgid "The group name \"%value%\" is already in use."
@@ -394,7 +394,7 @@ msgstr ""
 
 #: language/_annotated_strings.php:117
 msgid "login"
-msgstr ""
+msgstr "Logare"
 
 #: language/_annotated_strings.php:120
 msgid "Cannot proceed, token expired"
@@ -412,7 +412,8 @@ msgid ""
 msgstr ""
 
 #: language/_annotated_strings.php:129
-msgid "User email verified successfully. You need to set a password to log in."
+msgid ""
+"User email verified successfully. You need to set a password to log in."
 msgstr ""
 
 #: language/_annotated_strings.php:132
@@ -453,7 +454,7 @@ msgstr ""
 
 #: language/_annotated_strings.php:168 language/_annotated_strings.php:192
 msgid "Please fill form correctly"
-msgstr ""
+msgstr "Vă rugăm să completați formularul corect"
 
 #: language/_annotated_strings.php:171 language/_annotated_strings.php:174
 msgid "User with this email address already exists"
