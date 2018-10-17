@@ -36,7 +36,7 @@ class Module
      */
     public function getConfig()
     {
-        return ModuleConfigLoader::load(__DIR__ . '/config');
+        return ModuleConfigLoader::load(__DIR__ . '/../../config');
     }
 
     /**
@@ -57,14 +57,6 @@ class Module
                 array(
                     'Hybrid_Providers_Github'
                     => __DIR__ . '/../../vendor/hybridauth/hybridauth/additional-providers/hybridauth-github/Providers/GitHub.php',
-                ),
-            ),
-            'Zend\Loader\StandardAutoloader' => array(
-                'namespaces' => array(
-                    __NAMESPACE__ => __DIR__ . '/src/' . __NAMESPACE__,
-                    'AuthTest' => __DIR__ . '/test/AuthTest',
-                    'Acl' => __DIR__ . '/src/Acl',
-                    'AclTest' => __DIR__ . '/test/AclTest',
                 ),
             ),
         );
@@ -91,7 +83,7 @@ class Module
         $eventManager->attach(
             MvcEvent::EVENT_DISPATCH,
             function (MvcEvent $e) use ($services) {
-            /** @var CheckPermissionsListener $checkPermissionsListener */
+                /** @var CheckPermissionsListener $checkPermissionsListener */
                 $checkPermissionsListener = $services->get('Auth/CheckPermissionsListener');
                 $checkPermissionsListener->onDispatch($e);
             },
